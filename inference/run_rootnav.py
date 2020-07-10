@@ -13,6 +13,7 @@ from glob import glob
 from rsml import RSMLWriter, Plant, Root
 from models import ModelLoader
 from crf import CRF
+from resizeimage import resizeimage
 
 n_classes = 6
 fileExtensions = set([".JPG", ".JPEG", ".PNG", ".TIF", ".TIFF", ".BMP" ])
